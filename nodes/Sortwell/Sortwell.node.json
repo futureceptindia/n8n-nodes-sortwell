@@ -1,0 +1,21 @@
+{
+  "node": "dist/nodes/Sortwell/Sortwell.node.js",
+  "nodeSpecVersion": 1,
+  "version": 1,
+  "displayName": "Sortwell",
+  "name": "sortwell",
+  "icon": "file:sortwell.svg",
+  "description": "Verify and clean email addresses in real-time with Sortwell",
+  "categories": [
+    "Development",
+    "Utility"
+  ],
+  "tags": [
+    "email",
+    "verification",
+    "validator",
+    "deliverability",
+    "cleaner"
+  ]
+}
+

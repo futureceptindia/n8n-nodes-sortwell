@@ -1,0 +1,48 @@
+{
+  "name": "n8n-nodes-sortwell",
+  "version": "1.0.0",
+  "description": "Sortwell integration node for n8n to verify and clean email lists in real time",
+  "keywords": [
+    "n8n-community-node-package",
+    "sortwell",
+    "email",
+    "email verification",
+    "deliverability",
+    "email validator",
+    "bounce prevention"
+  ],
+  "license": "MIT",
+  "homepage": "https://www.sortwell.xyz",
+  "author": {
+    "name": "Sortwell Team",
+    "email": "support@sortwell.xyz",
+    "url": "https://www.sortwell.xyz"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sortwell/n8n-nodes-sortwell.git"
+  },
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc && node scripts/copy-assets.js",
+    "prepublishOnly": "npm run build"
+  },
+  "files": [
+    "dist"
+  ],
+  "n8n": {
+    "n8nNodesApiVersion": 1,
+    "credentials": [
+      "dist/credentials/SortwellApi.credentials.js"
+    ],
+    "nodes": [
+      "dist/nodes/Sortwell/Sortwell.node.js"
+    ]
+  },
+  "devDependencies": {
+    "@types/node": "^20.14.0",
+    "n8n-workflow": "^1.39.0",
+    "typescript": "^5.4.0"
+  }
+}
+
