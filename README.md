@@ -92,7 +92,7 @@ npm install n8n-nodes-sortwell
 
 - **Sortwell Website:** [https://www.sortwell.xyz](https://www.sortwell.xyz)
 - **API Documentation:** [https://www.sortwell.xyz/docs](https://www.sortwell.xyz/docs)
-- **Report Issues:** [https://github.com/sortwell/n8n-nodes-sortwell/issues](https://github.com/sortwell/n8n-nodes-sortwell/issues)
+- **Report Issues:** [https://github.com/futureceptindia/n8n-nodes-sortwell/issues](https://github.com/futureceptindia/n8n-nodes-sortwell/issues)
 
 ---
 
