@@ -73,7 +73,17 @@ npm install n8n-nodes-sortwell
 
 ### 2. Resource: Account
 * **Operation: Get Balance & Quota**
-  * Retrieves user plan, remaining credits, and daily allocation.
+  * Retrieves user plan and remaining verification credits.
+  * **Output Schema:**
+    ```json
+    {
+      "id": "user_2s8...",
+      "email": "alex@company.com",
+      "name": "Alex Turner",
+      "plan": "growth",
+      "creditsRemaining": 4850
+    }
+    ```
 
 ---
 
