@@ -23,7 +23,7 @@ export class SortwellApi implements ICredentialType {
       displayName: 'Base URL',
       name: 'baseUrl',
       type: 'string',
-      default: 'https://www.sortwell.xyz',
+      default: 'https://app.sortwell.xyz',
       description: 'Override base URL for custom domains, staging, or local testing',
     },
   ];

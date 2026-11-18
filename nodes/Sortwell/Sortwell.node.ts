@@ -58,7 +58,7 @@ export class Sortwell implements INodeType {
     const items = this.getInputData();
     const returnData: INodeExecutionData[] = [];
     const credentials = await this.getCredentials('sortwellApi');
-    const baseUrl = ((credentials.baseUrl as string) || 'https://www.sortwell.xyz').replace(/\/+$/, '');
+    const baseUrl = ((credentials.baseUrl as string) || 'https://app.sortwell.xyz').replace(/\/+$/, '');
     const apiKey = (credentials.apiKey as string) || '';
 
     const resource = this.getNodeParameter('resource', 0) as string;

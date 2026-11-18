@@ -39,7 +39,7 @@ npm install n8n-nodes-sortwell
 2. Generate a new API key (starts with `ev_live_...`).
 3. In n8n, create a new credential for **Sortwell API**:
    - **API Key:** Paste your `ev_live_...` key.
-   - **Base URL:** Keep default `https://www.sortwell.xyz` (or set custom endpoint if self-hosting Sortwell).
+   - **Base URL:** Keep default `https://app.sortwell.xyz` (or set custom endpoint if self-hosting Sortwell).
 4. Click **Save** (n8n automatically tests the credential against the `/api/v1/account` endpoint).
 
 ---
